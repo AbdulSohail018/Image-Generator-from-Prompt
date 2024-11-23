@@ -118,6 +118,7 @@ Image Generator from Prompt/
 │
 ├── .gitignore           # Git ignore file
 ├── LICENSE              # License file
+├── requirments.txt      # Requirments file
 ├── README.md           # Project documentation
 ├── setup.py           # Package setup file
 └── run.py             # Main script to run the generator

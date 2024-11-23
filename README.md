@@ -6,8 +6,8 @@ A Python package for generating images from text descriptions using Stable Diffu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/AbdulSohail018/multimodal-generator.git
-cd multimodal-generator
+git clone https://github.com/AbdulSohail018/Image-Generator-from-Prompt.git
+cd Image-Generator-from-Prompt
 ```
 
 2. Create and activate a virtual environment:

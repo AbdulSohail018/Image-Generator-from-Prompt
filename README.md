@@ -1,6 +1,6 @@
 # Image Generator from Prompt
 
-A Python package for generating images from text descriptions using Stable Diffusion.
+Welcome to Image-Generator-from-Prompt, an advanced AI-powered image-generation system that transforms textual descriptions into stunning visual artworks. Built on the foundation of Stable Diffusion technology, this project represents a sophisticated blend of natural language processing and image generation capabilities.
 
 ## Installation
 

@@ -99,18 +99,28 @@ flake8 src/ tests/
 ## Project Structure
 
 ```
-multimodal_generator/
+Image Generator from Prompt/
 │
 ├── src/
-│   ├── generator.py  # Main generator class
-│   ├── config.py     # Configuration handling
-│   └── utils.py      # Utility functions
+│   ├── __init__.py       # Makes src a Python package
+│   ├── generator.py      # Main generator class
+│   ├── config.py         # Configuration handling
+│   └── utils.py          # Utility functions
 │
 ├── tests/
-│   └── test_generator.py  # Unit tests
+│   ├── __init__.py       # Makes tests a package
+│   └── test_generator.py # Test cases
 │
-└── examples/
-    └── basic_usage.py     # Usage examples
+├── examples/
+│   └── basic_usage.py    # Example usage
+│
+├── output_images/        # Directory for generated images
+│
+├── .gitignore           # Git ignore file
+├── LICENSE              # License file
+├── README.md           # Project documentation
+├── setup.py           # Package setup file
+└── run.py             # Main script to run the generator
 ```
 
 ## License

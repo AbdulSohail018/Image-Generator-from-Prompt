@@ -1,4 +1,4 @@
-# Multimodal Content Generator
+# Image Generator from Prompt
 
 A Python package for generating images from text descriptions using Stable Diffusion.
 

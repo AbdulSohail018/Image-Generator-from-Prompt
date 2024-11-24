@@ -1,16 +1,38 @@
-# Image Generator from Prompt
+# 🎨 Image Generator from Prompt
 
-Welcome to Image-Generator-from-Prompt, an advanced AI-powered image-generation system that transforms textual descriptions into stunning visual artworks. Built on the foundation of Stable Diffusion technology, this project represents a sophisticated blend of natural language processing and image generation capabilities.
+<div align="center">
 
-## Installation
+![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+![Stable Diffusion](https://img.shields.io/badge/Stable%20Diffusion-v1.5-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-1. Clone the repository:
+*Transform your imagination into stunning visual reality with AI-powered image generation*
+
+[Installation](#installation) • [Quick Start](#quick-start) • [Features](#features) • [Documentation](#documentation) • [Contributing](#contributing)
+
+</div>
+
+## 🌟 Overview
+
+Welcome to **Image-Generator-from-Prompt**, an advanced AI-powered image-generation system that transforms textual descriptions into stunning visual artworks. Built on the foundation of Stable Diffusion technology, this project represents a sophisticated blend of natural language processing and image generation capabilities.
+
+## ⚡ Installation
+
+### Prerequisites
+- Python 3.8+
+- CUDA-compatible GPU (optional)
+- 8GB+ RAM recommended
+
+### Setup Steps
+
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/AbdulSohail018/Image-Generator-from-Prompt.git
 cd Image-Generator-from-Prompt
 ```
 
-2. Create and activate a virtual environment:
+2. **Create and activate virtual environment:**
 ```bash
 # For Windows
 python -m venv venv
@@ -21,12 +43,12 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-3. Install the package:
+3. **Install the package:**
 ```bash
 pip install -e .
 ```
 
-## Quick Start
+## 🚀 Quick Start
 
 ```python
 from src.generator import MultimodalGenerator
@@ -48,20 +70,20 @@ images = generator.generate_image(
 )
 ```
 
-## Features
+## 🎯 Features
 
-- Text-to-image generation using Stable Diffusion
-- Support for multiple images per prompt
-- Negative prompts for better control
-- Customizable generation parameters
-- Automatic device selection (CPU/GPU)
-- Comprehensive logging
-- Error handling and validation
-- Organized output management
+- 🎨 Text-to-image generation using Stable Diffusion
+- 🔄 Support for multiple images per prompt
+- 🎯 Negative prompts for better control
+- ⚙️ Customizable generation parameters
+- 💻 Automatic device selection (CPU/GPU)
+- 📝 Comprehensive logging
+- 🛡️ Error handling and validation
+- 📁 Organized output management
 
-## Configuration
+## ⚙️ Configuration
 
-You can customize the generator behavior using the `GeneratorConfig` class:
+Customize the generator behavior using the `GeneratorConfig` class:
 
 ```python
 from src.config import GeneratorConfig
@@ -77,58 +99,68 @@ config = GeneratorConfig(
 generator = MultimodalGenerator(config)
 ```
 
-## Development
+## 👨‍💻 Development
 
-1. Install development dependencies:
+1. **Install development dependencies:**
 ```bash
 pip install pytest black flake8 isort
 ```
 
-2. Run tests:
+2. **Run tests:**
 ```bash
 pytest tests/
 ```
 
-3. Format code:
+3. **Format code:**
 ```bash
 black src/ tests/
 isort src/ tests/
 flake8 src/ tests/
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
-Image Generator from Prompt/
+Image-Generator-from-Prompt/
 │
-├── src/
-│   ├── __init__.py       # Makes src a Python package
-│   ├── generator.py      # Main generator class
-│   ├── config.py         # Configuration handling
-│   └── utils.py          # Utility functions
+├── src/                  # Source code
+│   ├── __init__.py      # Makes src a Python package
+│   ├── generator.py     # Main generator class
+│   ├── config.py        # Configuration handling
+│   └── utils.py         # Utility functions
 │
-├── tests/
-│   ├── __init__.py       # Makes tests a package
-│   └── test_generator.py # Test cases
+├── tests/               # Test suite
+│   ├── __init__.py     
+│   └── test_generator.py
 │
-├── examples/
-│   └── basic_usage.py    # Example usage
+├── examples/            # Example scripts
+│   └── basic_usage.py  
 │
-├── output_images/        # Directory for generated images
+├── output_images/       # Generated images
 │
-├── .gitignore           # Git ignore file
-├── LICENSE              # License file
-├── requirments.txt      # Requirments file
-├── README.md           # Project documentation
+├── .gitignore          # Git ignore file
+├── LICENSE             # License file
+├── requirements.txt    # Project dependencies
+├── README.md          # Project documentation
 ├── setup.py           # Package setup file
-└── run.py             # Main script to run the generator
+└── run.py             # Main script
 ```
 
-## License
+## 🛠️ Technical Stack
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Core:** Python 3.8+, PyTorch
+- **AI Models:** Stable Diffusion, Transformers
+- **Image Processing:** Pillow, OpenCV
+- **Development:** pytest, black, flake8
+- **Documentation:** Markdown
 
-## Contributing
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -136,10 +168,21 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## Requirements
+## 💡 Tips for Better Results
 
-- Python 3.8+
-- PyTorch
-- Diffusers
-- Transformers
-- Other dependencies listed in requirements.txt
+- Be specific in your prompts
+- Use quality indicators like "high quality", "detailed"
+- Experiment with negative prompts
+- Adjust parameters for optimal results
+
+## 📫 Support
+
+For support, please open an issue in the GitHub repository.
+
+---
+
+<div align="center">
+
+Made with ❤️ by [AbdulSohail018](https://github.com/AbdulSohail018)
+
+</div>
